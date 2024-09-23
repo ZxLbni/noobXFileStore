@@ -10,9 +10,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "price":
         await query.message.edit_text(
-            text = f"<b> ʜᴀʀɢᴀ ʏᴀɴɢ ᴋᴀᴍɪ ᴄᴀɴᴛᴜᴍᴋᴀɴ ᴅᴇɴɢᴀɴ ʜᴀʀɢᴀ ʀᴇɴᴅᴀʜ •ᴍᴜʀᴀʜ• 600 ᴠɪᴅᴇᴏ •30ᴋ|330🌟•
+            text = f"<b>○ ʜᴀʀɢᴀ ʏᴀɴɢ ᴋᴀᴍɪ ᴄᴀɴᴛᴜᴍᴋᴀɴ ᴅᴇɴɢᴀɴ ʜᴀʀɢᴀ ʀᴇɴᴅᴀʜ (ᴍᴜʀᴀʜ) 600 ᴠɪᴅᴇᴏ (30ᴋ/330🌟)
 ᴜɴᴛᴜᴋ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ, ꜱɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ ᴋᴀᴍɪ</b>",
-          disable_web_page_preview = True,
+            disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('🛃 1ᴅᴇᴠᴇʟᴏᴘᴇʀ ', url='https://t.me/dammingyu'),
