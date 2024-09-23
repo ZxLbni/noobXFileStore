@@ -2,8 +2,6 @@
   ─「 ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ 」─
 </h2>
 
- ━━━━━━━━━━━━━━━━━
-
 ### Variables
 
 * `API_HASH` Your API Hash from my.telegram.org
