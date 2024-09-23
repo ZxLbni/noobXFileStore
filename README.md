@@ -51,7 +51,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
 
-<p align="center"><a href="https://app.koyeb.com/deploy?name=filestore&type=git&repository=PXZDev/PXZsupport&branch=main&builder=buildpack&run_command=python3+main.py&env%5B%5D=&ports=8080%3Bhttp%3B%2F](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=filestore&type=git&repository=PXZDev%2FPXZsupport&branch=main&builder=buildpack&run_command=python3+main.py&env%5BADMINS%5D=&env%5BAPI_HASH%5D=&env%5BAPP_ID%5D=&env%5BBOT_STATS_TEXT%5D=&env%5BCHANNEL_ID%5D=&env%5BCUSTOM_CAPTION%5D=%40PXZsupport&env%5BDATABASE_NAME%5D=&env%5BDATABASE_URL%5D=&env%5BFILE_AUTO_DELETE%5D=1000&env%5BFORCE_SUB_CHANNEL%5D=&env%5BFORCE_SUB_CHANNEL2%5D=&env%5BOWNER%5D=&env%5BOWNER_ID%5D=&env%5BPROTECT_CONTENT%5D=False&env%5BSTART_MESSAGE%5D=&env%5BTG_BOT_TOKEN%5D=&env%5BTG_BOT_WORKERS%5D=4&env%5BUSER_REPLY_TEXT%5D=&ports=8080%3Bhttp%3B%2F">
+<p align="center"><a href="https://app.koyeb.com/deploy?name=filestore&type=git&repository=PXZDev%2FPXZsupport&branch=main&builder=buildpack&run_command=python3+main.py&env%5BADMINS%5D=&env%5BAPI_HASH%5D=&env%5BAPP_ID%5D=&env%5BBOT_STATS_TEXT%5D=&env%5BCHANNEL_ID%5D=&env%5BCUSTOM_CAPTION%5D=%40PXZsupport&env%5BDATABASE_NAME%5D=&env%5BDATABASE_URL%5D=&env%5BFILE_AUTO_DELETE%5D=1000&env%5BFORCE_SUB_CHANNEL%5D=&env%5BFORCE_SUB_CHANNEL2%5D=&env%5BFORCE_SUB_MESSAGE%5D=&env%5BOWNER%5D=&env%5BOWNER_ID%5D=&env%5BPROTECT_CONTENT%5D=False&env%5BSTART_MESSAGE%5D=&env%5BTG_BOT_TOKEN%5D=&env%5BTG_BOT_WORKERS%5D=4&env%5BUSER_REPLY_TEXT%5D=&ports=8080%3Bhttp%3B%2F">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
