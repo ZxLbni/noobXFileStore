@@ -30,7 +30,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([
                 [
                 [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "cancel")],
-            ])            
+            ]
+                )            
         )
         
         elif data == "premium":
@@ -41,7 +42,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                 [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "cancel"),
                 InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ', url= 'https://t.me/PXZstore_official')],
-            ])            
+            ]
+                )            
     )
     elif data == "close":
         try:
