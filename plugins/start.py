@@ -86,8 +86,9 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
                     InlineKeyboardButton("💎 ᴘʀᴇᴍɪᴜᴍ", callback_data= "premium"),
                     InlineKeyboardButton("🎁 ᴅᴏɴᴀᴛᴇ", callback_data="donate")],
-                    [InlineKeyboardButton('💰 ꜱᴛᴏʀᴇ ', url='https://t.me/PXZstore_official'),
-                    InlineKeyboardButton('🚪 ɢʀᴏᴜᴘ ', url='https://t.me/pexland')],
+                 [InlineKeyboardButton("🛒 ᴘʀᴏᴍᴏᴛɪᴏɴ ", callback_data="promotion"),
+                 InlineKeyboardButton('💰 ꜱᴛᴏʀᴇ ', url='https://t.me/PXZstore_official'),
+                 InlineKeyboardButton('🚪 ɢʀᴏᴜᴘ ', url='https://t.me/pexland')],
                 [InlineKeyboardButton('🌐 ᴡᴇʙꜱɪᴛᴇ', url='https://px-z.blogspot.com'),
                 InlineKeyboardButton('📱 ɪɴꜱᴛᴀɢʀᴀᴍ', url='https://Instagram.com/pxz_official')],
                 
