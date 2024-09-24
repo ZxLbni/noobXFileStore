@@ -25,7 +25,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     elif data == "donate":
         await query.message.edit_text(
-            text = f"<b>DONATE - PXZFamily</b>\n🪙 https://saweria.co/PXZsupport<l",
+            text = f"<b>DONATE - PXZFamily</b>\n🪙 https://saweria.co/PXZsupport</b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [
