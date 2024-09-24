@@ -27,7 +27,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"DONATE - PXZFamily\n🪙 https://saweria.co/PXZsupport",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close)]
+                [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
                 
             ])            
         )
