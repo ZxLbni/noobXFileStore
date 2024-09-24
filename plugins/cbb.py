@@ -41,6 +41,16 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
             ])            
         )
+        elif data == "promotion":
+        await query.message.edit_text(
+            text = f"<b>YOU WANT PROMOTION VIDEO?, SURE WE CAN HELP IT\nSELL VIDEO? PUT PRICE PLEASE CONTACT</b>",
+            disable_web_page_preview = True,
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🤖 ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/pxzstore_official")],
+                [
+                InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
+            ])            
+                )
         
     elif data == "close":
         await query.message.delete()
