@@ -29,9 +29,20 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [
-                InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "cancel")]
+                [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "cancel")],
             ])            
         )
+        
+        elif data == "premium":
+        await query.message.edit_text(
+            text = f"<b>List To Be Premium of PXZVip\n100 video 5k\n200 video 10k\n300 video 15k\n400 video 20k\n500 video 25k\n600 video 30k\n\nIF YOU WANT BUY VIP, PLEASE CONTACT TEAM</b>",
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([
+                [
+                [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "cancel"),
+                InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ', url= 'https://t.me/PXZstore_official')],
+            ])            
+    )
     elif data == "close":
         try:
             await query.message.delete()
