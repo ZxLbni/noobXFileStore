@@ -87,7 +87,8 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ ', url= 'https://t.me/PXZteam')],
                     [InlineKeyboardButton('🛂 ꜱᴜᴘᴘᴏʀᴛ ', url='https://t.me/PXZsupport'),
                     InlineKeyboardButton('💰 ꜱᴛᴏʀᴇ ', url='https://t.me/PXZstore_official')],
-                [InlineKeyboardButton('📰 ᴡᴇʙꜱɪᴛᴇ', url='https://px-z.blogspot.com')],
+                [InlineKeyboardButton('📰 ᴡᴇʙꜱɪᴛᴇ', url='https://px-z.blogspot.com'),
+                InlineKeyboardButton('📱 ɪɴꜱᴛᴀɢʀᴀᴍ', url='https://Instagram.com/pxz_official')],
             ]
                 )
         await message.reply_text(
