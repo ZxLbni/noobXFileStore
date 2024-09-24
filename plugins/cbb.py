@@ -46,7 +46,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"<b>IF YOU WANT PROMOTION VIDEO/PHOTO/ETC CONTACT STORE TEAM👇</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🤖 ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/pxzstore_team")],
+                [InlineKeyboardButton("🤖 ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/pxzstore_team"),
+                InlineKeyboardButton("📤 ᴜᴘʟᴏᴀᴅᴇᴅ", url="https://t.me/+U3RYX-jKJTxjYzk1"],
                 [
                 InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
             ])            
