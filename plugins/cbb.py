@@ -33,9 +33,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])            
         )
     elif data == "close":
-        await query.message.delete()
         try:
+            await query.message.delete()
             await query.message.reply_to_message.delete()
+            await query.message.continue_propagation()
         except:
+            await query.message.delete()
+            await query.message.continue_propagation()
             pass
 
