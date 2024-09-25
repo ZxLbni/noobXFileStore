@@ -24,9 +24,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "donate":
         await query.message.edit_text(
-            text = f"<b>DONATE - PXZFamily</b>\n\n<b>SAWERIA</b> : \nhttps://saweria.co/PXZsupport\n<b>PayPal</b> : COMING SOON",
+            text = f"<b>DONATE - PXZFamily</b>\nJika kalian suka sama video yang kami bagikan secara gratis/bayaran, ingin berbagi (donasi) kepada PXZteam? Silahkan pilih via donasi\n If you like the videos we share for free/paid, want to share (donate) to PXZteam? Please choose via donation",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
+                InlineKeyboardButton('🧾 ꜱᴀᴡᴇʀɪᴀ', url='https://saweria.co/PXZsupport'),
+                InlineKeyboardButton('🧾 ᴘᴀʏᴘᴀʟ', url='https://paypal.me/PEXLAND')
+          ],
                 [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
                 
             ])            
