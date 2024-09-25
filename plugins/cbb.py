@@ -39,8 +39,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"<b>List To Be Premium of PXZVip\n<blockquote>100 video 5k\n200 video 10k\n300 video 15k\n400 video 20k\n500 video 25k\n600 video 30k\n\nIF YOU WANT BUY VIP, PLEASE CONTACT</blockquote></b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton('🤖 ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/pxzstore_team'),
-                InlineKeyboardButton('🤖 ᴘᴀʏɪɴɢ', url='https://saweria.co/PXZsupport')],
+                [InlineKeyboardButton('🛂 ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/pxzstore_team'),
+                InlineKeyboardButton('🔓 ᴘᴀʏɪɴɢ', url='https://saweria.co/PXZsupport'),
+                InlineKeyboardButton('🔓 ᴘᴀʏᴘᴀʟ', url='https://paypal.me/PEXLAND')],
                 [
                 InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
             ])            
