@@ -24,7 +24,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "donate":
         await query.message.edit_text(
-            text = f"DONATE - PXZFamily\n🪙 https://saweria.co/PXZsupport",
+            text = f"<b>DONATE - PXZFamily</b>\n<b>SAWERIA</b> : https://saweria.co/PXZsupport\n<b>PayPal</b> : COMING SOON",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
