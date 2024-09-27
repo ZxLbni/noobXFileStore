@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "e4d264f7d2608c48102500bff08f5b9c")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001838940306"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "PXZteam")
+OWNER = os.environ.get("OWNER", "HRBteam")
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5709856741"))
@@ -53,7 +53,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ | ʙᴜᴛᴛᴏɴ | ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @PXZsupport/@PXZsupport_official</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @HRBsupport/@PXZsupport_official</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
