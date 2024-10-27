@@ -82,18 +82,16 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton("💎 ᴘʀᴇᴍɪᴜᴍ", callback_data= "premium"),
-                    InlineKeyboardButton("🎁 ᴅᴏɴᴀᴛᴇ", callback_data="donate")],
-                 [InlineKeyboardButton("🛒 ᴘʀᴏᴍᴏᴛɪᴏɴ ", callback_data="promotion"),
-                 InlineKeyboardButton('💰 ꜱᴛᴏʀᴇ ', url='https://t.me/HRBstore_official'),
-                 InlineKeyboardButton('🚪 ɢʀᴏᴜᴘ ', url='https://t.me/pexland')],
-                [InlineKeyboardButton('🌐 ᴡᴇʙꜱɪᴛᴇ', url='https://px-z.blogspot.com'),
-                InlineKeyboardButton('📱 ɪɴꜱᴛᴀɢʀᴀᴍ', url='https://Instagram.com/pxz_official'),
-                InlineKeyboardButton('📲 ᴡʜᴀᴛꜱᴀᴘᴘ', url='https://whatsapp.com/channel/0029Vaj27FHLo4hWYvLaUM00')],
-                
-            ]
+    [
+        InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data="about"),
+        InlineKeyboardButton("💎 ᴘʀᴇᴍɪᴜᴍ", callback_data="premium"),
+        InlineKeyboardButton("🎁 ᴅᴏɴᴀᴛᴇ", callback_data="donate")
+    ],
+    [
+        InlineKeyboardButton("🛒 ᴘʀᴏᴍᴏᴛɪᴏɴ", callback_data="promotion"),
+        InlineKeyboardButton('🚪 ɢʀᴏᴜᴘ', url='https://t.me/NoobPrivatechats')
+    ]
+]
                 )
 
         
