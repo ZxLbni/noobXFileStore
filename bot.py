@@ -13,7 +13,7 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE
 
 
 name ="""
- BY HRBsupport
+ BY NoobPrivate 
 """
 
 
@@ -47,7 +47,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("ʙᴏᴛ ᴄᴀɴ'ᴛ ᴇxᴘᴏʀᴛ ɪɴᴠɪᴛᴇ ʟɪɴᴋ ꜰʀᴏᴍ ꜰᴏʀᴄᴇ ꜱᴜʙ ᴄʜᴀɴɴᴇʟ!")
                 self.LOGGER(__name__).warning(f"ᴘʟᴇᴀꜱᴇ ᴅᴏᴜʙʟᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ FORCE_SUB_CHANNEL ᴠᴀʟᴜᴇ ᴀɴᴅ ᴍᴀᴋᴇ ꜱᴜʀᴇ ʙᴏᴛ ɪꜱ ᴀᴅᴍɪɴ ɪɴ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ɪɴᴠɪᴛᴇ ᴜꜱᴇʀꜱ ᴠɪᴀ ʟɪɴᴋ ᴘᴇʀᴍɪꜱꜱɪᴏɴ, ᴄᴜʀʀᴇɴᴛ ꜰᴏʀᴄᴇ ꜱᴜʙ ᴄʜᴀɴɴᴇʟ ᴠᴀʟᴜᴇ: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/HRBsupport ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
+                self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/NoobPrivate  ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
                 sys.exit()
         if FORCE_SUB_CHANNEL2:
             try:
@@ -60,7 +60,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("ʙᴏᴛ ᴄᴀɴ'ᴛ ᴇxᴘᴏʀᴛ ɪɴᴠɪᴛᴇ ʟɪɴᴋ ꜰʀᴏᴍ ꜰᴏʀᴄᴇ ꜱᴜʙ 2 ᴄʜᴀɴɴᴇʟ!")
                 self.LOGGER(__name__).warning(f"ᴘʟᴇᴀꜱᴇ ᴅᴏᴜʙʟᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ FORCE_SUB_CHANNEL2 ᴠᴀʟᴜᴇ ᴀɴᴅ ᴍᴀᴋᴇ ꜱᴜʀᴇ ʙᴏᴛ ɪꜱ ᴀᴅᴍɪɴ ɪɴ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ɪɴᴠɪᴛᴇ ᴜꜱᴇʀꜱ ᴠɪᴀ ʟɪɴᴋ ᴘᴇʀᴍɪꜱꜱɪᴏɴ, ᴄᴜʀʀᴇɴᴛ ꜰᴏʀᴄᴇ ꜱᴜʙ ᴄʜᴀɴɴᴇʟ ᴠᴀʟᴜᴇ: {FORCE_SUB_CHANNEL2}")
-                self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/HRBsupport ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
+                self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/NoobPrivate  ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
                 sys.exit()
         
         
@@ -74,11 +74,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"ᴍᴀᴋᴇ ꜱᴜʀᴇ ʙᴏᴛ ɪꜱ ᴀᴅᴍɪɴ ɪɴ ᴅʙ ᴄʜᴀɴɴᴇʟ, ᴀɴᴅ ᴅᴏᴜʙʟᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ CHANNEL_ID ᴠᴀʟᴜᴇ, ᴄᴜʀʀᴇɴᴛ ᴠᴀʟᴜᴇ {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/HRBsupport ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
+            self.LOGGER(__name__).info("\nʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ. ᴊᴏɪɴ https://t.me/NoobPrivate  ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/HRBsupport")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/NoobPrivate ")
         self.LOGGER(__name__).info(f"""\n\n
 
 
