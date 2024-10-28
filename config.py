@@ -16,7 +16,7 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8022651374:AAH18Swdg3uo-v5_N_b60A
 APP_ID = int(os.environ.get("APP_ID", "22419004"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "34982b52c4a83c2af3ce8f4fe12fe4e1)
+API_HASH = os.environ.get("API_HASH", "34982b52c4a83c2af3ce8f4fe12fe4e1")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002445495902"))
@@ -28,7 +28,7 @@ OWNER = os.environ.get("OWNER", "noob_je")
 OWNER_ID = int(os.environ.get("OWNER_ID", "6742022802"))
 
 #Port
-PORT = os.environ.get("PORT", "8030")
+PORT = os.environ.get("PORT", "8080")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://PXZ:45p7qj4S5p1E9Eo0@cluster0.yd7gp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
