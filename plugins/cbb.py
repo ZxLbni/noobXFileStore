@@ -16,7 +16,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [InlineKeyboardButton('🛃 ᴅᴇᴠᴇʟᴏᴘᴇʀ 1', url='https://telegram.im/noob_je'),
                     InlineKeyboardButton('🛃 ᴅᴇᴠᴇʟᴏᴘᴇʀ 2', url='https://telegram.im/l_abani')],
-                   [ InlineKeyboardButton('🛂 ꜱᴜᴘᴘᴏʀᴛ ', url='https://t.me/HRBsupport')],
+                   [ InlineKeyboardButton('🛂 ꜱᴜᴘᴘᴏʀᴛ ', url='https://t.me/NoobPrivatechats')],
                    [InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
                 
                 ]
@@ -51,7 +51,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('🤖 ᴄᴏɴᴛᴀᴄᴛ', url='https://telegram.im/noob_je'),
-                InlineKeyboardButton('📤 ᴜᴘʟᴏᴀᴅᴇᴅ', url='https://telegram.im/NoobPrivate')],
+                InlineKeyboardButton('📤 ᴜᴘʟᴏᴀᴅᴇᴅ', url='https://t.me/NoobPrivate')],
                 [
                 InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close")]
             ])            
